@@ -9,4 +9,4 @@ after_success:  codecov
 install:
   - pip install -r requirements.txt
 
-script: pytest --with-coverage
+script: pytest
