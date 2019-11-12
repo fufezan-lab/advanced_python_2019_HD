@@ -1,6 +1,1 @@
-jupyter
-pandas
-plotly
-psutil
-sphinx
-rise
+pytest
