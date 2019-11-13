@@ -28,4 +28,8 @@ def test_find_peaks_max_edge():
     
 def test_find_peaks_empty_list():
     peaks = playground.core.find_peaks([])
-    assert peaks == [] 
+    assert peaks == []
+    
+def test_colors_peak():
+    colors = playground.core.find_color_peaks([[253,58,58], [21,84,233], [26,29,34], [38,226,38]])
+    assert colors == [[26,29,34]]
